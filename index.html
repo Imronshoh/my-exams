@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exams</title>
+</head>
+<style>
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    html {
+        scroll-behavior: smooth;
+    }
+
+    body {
+        margin: 0 auto;
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+            Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+        overflow: hidden;
+    }
+
+    ul,
+    ol {
+        list-style-type: none;
+        padding-left: 0;
+    }
+
+    a {
+        text-decoration: none;
+    }
+
+    .container {
+        max-width: 1200px;
+        margin: 0 auto;
+    }
+</style>
+
+<body>
+    <h1>Exams</h1>
+    <h2>All done</h2>
+</body>
+<script>
+    let a = [1, 2, 3, 4, 5];
+    let b = [];
+    let sum = 0;
+    for (let i = 0; i < a.length; i++) {
+        sum += a[i];
+        b.push(sum);
+    }
+    console.log(b);
+    let c = [2, 10, 5, 8, 12];
+    let d = [];
+    let sum2 = 0;
+    for (let i = 0; i < c.length; i++) {
+        sum2 += c[i];
+        d.push(sum2);
+    }
+    console.log(d);
+    let e = [9, 14, 3, 2, 1];
+    let f = [];
+    let sum3 = 0;
+    for (let i = 0; i < e.length; i++) {
+        sum3 += e[i];
+        f.push(sum3);
+    }
+    console.log(f);
+
+
+    let bir = [1, 2, 3, 4, 5];
+    let ikki = [];
+
+    for (let i = 0; i < bir.length; i++) {
+        let sum4 = 0;
+        for (let j = i; j < bir.length; j++) {
+            sum4 += a[j];
+        }
+        ikki.push(sum4);
+    }
+
+    console.log(ikki);
+
+    let one = [2, 10, 5, 8, 12];
+    let two = [];
+
+    for (let i = 0; i < one.length; i++) {
+        let sum5 = 0;
+        for (let j = i; j < one.length; j++) {
+            sum5 += one[j];
+        }
+        two.push(sum5);
+    }
+
+    console.log(two);
+
+    let three = [9, 14, 3, 2, 1];
+    let four = [];
+
+    for (let i = 0; i < three.length; i++) {
+        let sum5 = 0;
+        for (let j = i; j < three.length; j++) {
+            sum5 += three[j];
+        }
+        four.push(sum5);
+    }
+
+    console.log(four);
+
+
+    let n = 4;
+
+    let fibArray = [1, 1];
+
+    for (let i = 2; i < n; i++) {
+        fibArray[i] = fibArray[i - 1] + fibArray[i - 2];
+    }
+
+    console.log(fibArray);
+    let r = 6;
+
+    let fibArray2 = [1, 1];
+
+    for (let i = 2; i < r; i++) {
+        fibArray2[i] = fibArray2[i - 1] + fibArray2[i - 2];
+    }
+
+    console.log(fibArray2);
+    let q = 5;
+
+    let fibArray3 = [1, 1];
+
+    for (let i = 2; i < q; i++) {
+        fibArray3[i] = fibArray3[i - 1] + fibArray3[i - 2];
+    }
+
+    console.log(fibArray3);
+
+</script>
+
+</html>
